@@ -10056,3 +10056,71 @@ h6,
     display: none;
   }
 }
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #e83e8c;
+  box-shadow: 0 10px 30px rgba(232, 62, 140, 0.2);
+}
+
+.skill-icon {
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.1);
+}
+
+@media (min-width: 992px) {
+  .col-lg-custom {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #bc6888;
+  box-shadow: 0 15px 40px rgba(252, 219, 246, 0.2);
+}
+
+.service-icon {
+  transition: transform 0.3s ease;
+}
+
+.service-icon-pink {
+  color: #bc6888;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.2);
+  color: #fcdbf6;
+}
+
+.portfolio-btn a {
+  transition: all 0.3s ease;
+}
+
+.portfolio-btn a:hover {
+  transform: scale(1.2);
+  color: #0BCEAF !important;
+}
